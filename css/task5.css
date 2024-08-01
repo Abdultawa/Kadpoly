@@ -72,12 +72,12 @@ label #cancel{
 #check:checked ~ label #cancel{
     left: 195px;}
     .text {
-        margin: auto;
         width: 20%;
        border: 1px solid;
        background: green;
        padding: 3px ;
        border-radius: 5px;
+        margin-left: 10px;
     }
     .text2{
         color: white;
