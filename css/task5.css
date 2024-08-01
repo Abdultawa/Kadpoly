@@ -70,14 +70,14 @@ label #cancel{
     pointer-events: none;
 }
 #check:checked ~ label #cancel{
-    left: 195px;}
+    left: 195px;
+}
     .text {
         width: 20%;
        border: 1px solid;
        background: green;
-       padding: 3px ;
+       padding: auto;
        border-radius: 5px;
-        margin-left: 10px;
     }
     .text2{
         color: white;
@@ -88,7 +88,7 @@ label #cancel{
         margin-left: 540px;
     }
     .email{
-        margin-left: 540px;
+/*         margin-left: 540px; */
         padding-bottom: 20px;
     }
     .div-email{
@@ -100,7 +100,7 @@ label #cancel{
         /* margin-top: 20px; */
     }
     .Password{
-        margin-left: 540px;
+/*         margin-left: 540px; */
         /* margin-bottom: 20px; */
         padding-bottom: 20px;
     }
@@ -122,6 +122,8 @@ label #cancel{
      /* padding: 15px;  */
     background-color:white;
     box-shadow: 10px 10px 5px lightblue;
-    margin: auto;
+    max-width:540px;
+    display:flex;
+    justify-content:center;
 }
 
